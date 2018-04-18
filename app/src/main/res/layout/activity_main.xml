@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.tarun.assignment5.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@android:color/background_light"
+        android:text="New Products Database"
+        android:textSize="14pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttoninsert1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:width="200dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Insert New Item"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonsearch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttoninsert1"
+        android:layout_alignStart="@+id/buttoninsert1"
+        android:layout_below="@+id/buttoninsert1"
+        android:layout_marginTop="50dp"
+        android:width="200dp"
+        android:background="@android:color/holo_purple"
+        android:text="Search Item"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttoncloseapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonsearch1"
+        android:layout_alignStart="@+id/buttonsearch1"
+        android:layout_below="@+id/buttonsearch1"
+        android:layout_marginTop="55dp"
+        android:width="200dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Close App"
+        android:textSize="18sp" />
+</RelativeLayout>

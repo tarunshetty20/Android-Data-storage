@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment5</string>
+    <string name="title_activity_insertthe_item">InserttheItem</string>
+    <string name="title_activity_insert_item">insert_item</string>
+</resources>
